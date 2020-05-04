@@ -1,3 +1,17 @@
+#TOPSIS
+
+#' @title teste
+#'
+#' @description teste
+#'
+#' @param symbol
+#'
+#' @return NULL
+#'
+#' @examples
+#'
+#' @export
+
 topsis_ranking_R=function(){
   
   tipo_criterios=list()
