@@ -126,6 +126,19 @@ topsis_ranking_R=function(){
   
   names(consolidado_importancias)=c("Pontuacao de desempenho","Alternativas","Ranking")
   
+  
+  consolidado=data.frame(consolidado)
+  names(consolidado)=criterios
+  
+  consolidado2=data.frame(consolidado2)
+  names(consolidado2)=criterios
+  
+  vetor_A_mais=data.frame(vetor_A_mais)
+  names(vetor_A_mais)=criterios
+  
+  vetor_A_menos=data.frame(vetor_A_menos)
+  names(vetor_A_menos)=criterios
+  
   assign("matriz de entrada",dados,envir = .GlobalEnv)
   assign("matriz normalizada",consolidado,envir = .GlobalEnv)
   assign("matriz normalizada ponderada",consolidado2,envir = .GlobalEnv)
