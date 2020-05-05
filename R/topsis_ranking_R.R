@@ -24,6 +24,10 @@ topsis_ranking_R=function(){
   consolidado_importancias=data.frame()
   vetor_nomes_alternativas_A_mais=list()
   vetor_nomes_alternativas_A_menos=list()
+  install.packages("dplyr")
+  install.packages("reshape")
+  library(dplyr)
+  library(reshape)
   
   projeto = readline("Qual o nome do projeto? ")  
   
